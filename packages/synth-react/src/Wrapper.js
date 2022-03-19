@@ -3,6 +3,7 @@ import App from './App';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import {useState} from 'react';
 
 export default function Wrapper(){
     return(
