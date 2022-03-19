@@ -1,4 +1,4 @@
-# Celo Progressive Dapp Starter
+# SynthDAO
 
 A starter pack to get started with building dapps on Celo.
 
@@ -13,7 +13,7 @@ Prerequisites:
 3. Git
 
 ```shell
-git clone https://github.com/celo-org/celo-progressive-dapp-starter
+git clone https://github.com/CalPolyBlockchain/synth-node-hackathon.git
 ```
 
 ## Intro Video
