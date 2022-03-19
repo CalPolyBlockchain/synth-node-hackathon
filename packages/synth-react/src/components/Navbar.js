@@ -35,12 +35,13 @@ function NavItem(props) {
 
 
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <div className="flex flex-auto text-white items-center justify-between p-4" >
             {/* NAV BAR LOGO  */}
                 <Logo />
             {/* NAV BAR ITEMS */}
+            
             <div className="flex flex-row items-center item justify-between p-3">
                 {nav_items.map((item,i) => (
                 

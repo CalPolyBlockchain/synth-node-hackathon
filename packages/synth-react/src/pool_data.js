@@ -1,8 +1,9 @@
 const pool_data = {
     stats:
         {
-            tvl: 1000000.00,
+            tvl_usd: 1048930.22,
             tvl_change: 0.00,
+
             tvl_change_percent: 0.00,
             vol_24h: 10344.00,
         },
