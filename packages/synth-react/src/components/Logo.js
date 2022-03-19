@@ -1,7 +1,7 @@
 export default function Logo() {
     return (
-        <div className="box-content h-6 w-auto">
-            <svg width="349" height="82" viewBox="0 0 349 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="box-content h-12 w-auto">
+            <svg width="300" height="62" viewBox="0 0 349 82" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_i_220_20)">
                     <path d="M15 56V48H7V40H23V48H47V32H15V24H7V8H15V0H55V8H63V16H47V8H23V24H55V32H63V48H55V56H15ZM98.2 56V32H90.2V24H82.2V0H98.2V24H114.2V0H130.2V24H122.2V32H114.2V56H98.2ZM141.4 56V0H157.4V8H165.4V16H173.4V24H181.4V0H197.4V56H181.4V40H173.4V32H165.4V24H157.4V56H141.4ZM232.6 56V8H216.6V0H264.6V8H248.6V56H232.6ZM275.8 56V0H291.8V24H315.8V0H331.8V56H315.8V32H291.8V56H275.8Z" fill="#FFF620" />
                 </g>
