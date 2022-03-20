@@ -15,15 +15,15 @@ export const home_page_text = {
         
     ],
     stack_section: {
-        main: " Start capitalizing on your defi assets",
-        secondary: "Earn Astonishing APY on ETH,USDT,SOL and countless other assets",
+        main: " Start capitalizing on your stablecoins",
+        secondary: "Earn Astonishing APY on USDT, USDC, and more",
         filled_box : {
             color: 'purple',
             text: 'Synth savings has no minimum deposits, account freezes, or signup requirements - it can be used by anyone in the world with access to the internet.'
         },
         apy_text: [
             'up to',
-            '10-15%',
+            '10-20%',
             'apr'
         ]
     },
@@ -42,7 +42,7 @@ export const home_page_text = {
     ],
 
     hero_section1 : {
-        "main": "Your gateway to simple compound interest on your Defi Assets",
+        "main": "Your gateway to simple compound interest on your stable assets",
         "button_text": "Join Waitlist"
     },
 
