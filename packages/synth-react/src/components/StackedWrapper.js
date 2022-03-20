@@ -6,6 +6,10 @@ export default function StackedWrapper(props) {
                     <div className="bg-purple stack-section-item text-left  w-full">
                         {props.children}
                     </div>
+
+                    <div>
+
+                    </div>
                 </div>
             </div>
         </div>);
