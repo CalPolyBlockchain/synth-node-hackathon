@@ -8,7 +8,7 @@ export default function CurrentPool(pool) {
                 </div>
                 <div className="text-right outline-8 outline-yellow">
                     <p className="text-2xl text-blue">{pool.apr}%</p>
-                    <p className="text-md opacity-50">apr</p>
+                    <p className="text-md opacity-50">APR</p>
                 </div>
             </div>
 

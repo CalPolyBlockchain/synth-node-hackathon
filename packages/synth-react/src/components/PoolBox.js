@@ -15,11 +15,11 @@ export default function PoolBox(pool) {
                             <p className="text-5xl text-pink">
                                 {pool.apr}
                             </p>
-                            <p className="text-2xl text-white text-right px-1 opacity-60">apr</p>
+                            <p className="text-2xl text-white text-right px-1 opacity-60">APR</p>
                             <p className="text-lg text-pink text-right pr-1 pt-3">
                                 {pool.tvl}
                             </p>
-                            <p className=" text-md text-white text-right px-1 opacity-60">tvl</p>
+                            <p className=" text-md text-white text-right px-1 opacity-60">TVL</p>
                         </div>
                     </div>
                     <div className="flex flex-row justify-end p-2 text-white">
