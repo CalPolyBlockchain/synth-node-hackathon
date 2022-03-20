@@ -3,17 +3,14 @@ const pool_data = {
     {
         tvl_usd: 1048930.22,
         tvl_change: 0.00,
-
         tvl_change_percent: 0.00,
         vol_24h: 10344.00,
-
-
         total_interest: 2312,
     },
     current_pool: {
         name: "Cusdt - CUSD",
         symbol: "cUSD",
-        age: "1d",
+        duration: "1d",
         apr: "8.50",
     },
 
@@ -23,7 +20,6 @@ const pool_data = {
             avg_apr: "8.99",
             interest_accumulated: "34.55",
             duration: "1d",
-
         },
         {
             name: "USDC (Optics V2",
