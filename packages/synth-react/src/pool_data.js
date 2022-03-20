@@ -18,20 +18,27 @@ const pool_data = {
         },
     pools:[
         {
-            name: "Synth",
-            assets : [
-                {
-                    name: "ETH",
-                    balance: 5.21,
-                    
-                },
-                {
-                    name: "DAI",
-                    balance: 300.02,
-                },
-            ],
-            description: "A stablecoin that can be used to buy and sell on the Ethereum blockchain.",
-            apr: "0.00%",
+            name: "UST (Allbridge)",
+            symbols : ["cUSD","UST"],
+            total_deposited: "$1,808,004",
+            weekly_volume: "$1,813",
+            apr: 0.279,
+            tvl: 738040.33,
+        },
+        {
+            name: "USDC (Optics V2)",
+            symbols : ["cUSD","UST"],
+            total_deposited: "$1,808,004",
+            weekly_volume: "$1,813",
+            apr: 0.279,
+            tvl: 33330.00,
+        },
+        {
+            name: "DAI (Optics V2)",
+            symbols : ["cUSD","DAI"],
+            total_deposited: "$2,880,004",
+            weekly_volume: "$1,333",
+            apr: 0.232,
             tvl: 1000000.00,
         }
     ]
