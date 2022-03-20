@@ -1,6 +1,6 @@
 # Welcome to SYNTH
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrappedd with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
