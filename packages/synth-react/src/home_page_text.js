@@ -4,27 +4,26 @@ const icon_class = "text-white text-3xl md:text-4xl";
 
 export const home_page_text = {
     outlined_boxes: [
-        {main: '“Literally cant go tits-up”',
-        secondary: 'No risk of liquidation, fixed interest rate, 100x traditional savings account interest rate',
+        {main: '“Asolutely no market risk”',
+        secondary: 'No liquidation risk, fixed interest rate, 100x traditional savings account interest rate',
         emoji: '📈',
         color: 'pink'},
-        {main: '“Leveraged Yield farming”',
-        secondary: 'Utilizing the lowest stable coin swaps to provide you the highest constant APY',
+        {main: '“Automated Pool Swaps”',
+        secondary: 'Utilizing the highest yielding stablecoin pool to consistently deliver the highest APY',
         emoji: '👀',
         color: 'yellow'},
         
     ],
     stack_section: {
-        main: " Start capitalizing on your defi assets",
-        secondary: "Earn Astonishing APY on ETH,USDT,SOL and countless other assets",
+        main: " Start capitalizing on your stablecoin assets",
+        secondary: "Earn Astonishing APY on USDC, UST and more",
         filled_box : {
             color: 'purple',
             text: 'Synth savings has no minimum deposits, account freezes, or signup requirements - it can be used by anyone in the world with access to the internet.'
         },
         apy_text: [
-            'up to',
-            '10-15%',
-            'apr'
+            '  ',
+            ' 10-20% APR at your fingertips'
         ]
     },
 
@@ -42,7 +41,7 @@ export const home_page_text = {
     ],
 
     hero_section1 : {
-        "main": "Your gateway to simple compound interest on your Defi Assets",
+        "main": "Your gateway to simple compound interest on your stable assets",
         "button_text": "Join Waitlist"
     },
 
@@ -76,32 +75,29 @@ export const home_page_text = {
             emoji: '👲🏽',
             name: "J. Kell",
             roles : [
-                "UI/ux designer",
-                "blkchain dev",
-                "python🐍 Insertion"
+                "Full Stack",
+                "Blockchain Dev",
             ]
 
         },
-        // {
-        //     emoji: '👲🏽',
-        //     name: "J. Kell",
-        //     roles : [
-        //         "UI/ux designer",
-        //         "blkchain dev",
-        //         "python🐍 Insertion"
-        //     ]
+        {
+            emoji: '👲🏽',
+            name: "M. Moha",
+            roles : [
+                "Full Stack",
+                "Blockchain Dev",
+            ]
 
-        // },
-        // {
-        //     emoji: '👲🏽',
-        //     name: "J. Kell",
-        //     roles : [
-        //         "UI/ux designer",
-        //         "blkchain dev",
-        //         "python🐍 Insertion"
-        //     ]
+        },
+        {
+            emoji: '👲🏽',
+            name: "M. Bett",
+            roles : [
+                "Tech Writer",
+                "Blockchain Dev",
+            ]
 
-        // },
+        },
         // {
         //     emoji: '👲🏽',
         //     name: "J. Kell",

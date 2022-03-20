@@ -7,7 +7,7 @@ const nav_items = [
         path: '/'
     },
     {
-        name: 'features',
+        name: 'Features',
         path: '#features',
     },
     {
