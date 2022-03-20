@@ -1,8 +1,7 @@
-// import OutlinedBox from "./OutlinedBox";
 
 export default function PoolBox(pool) {
     return (
-        <div className="m-8 ">
+        <div className="m-8">
             <div className=" bg-yellow rounded-2xl pool-stack">
                 <div className="pool-stack bg-blue rounded-2xl">
                     <div className="pool-stack border-8 bg-blac border-pink rounded-2xl">

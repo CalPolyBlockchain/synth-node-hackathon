@@ -10,9 +10,12 @@ export default function PoolPage(props) {
 
         <Tvl {...pool_data} user={user_data}/>
         {/* LIST OF POOLS TO DEPOSIT INTO */}
+        
+        <div className="">
         {pool_data.pools.map((pool, i) => {
             return ( <PoolBox key={i} {...pool} /> );
         })}
+        </div>
 
         {/* YOUR ASSETS */}
         </div>
