@@ -24,6 +24,12 @@
 
 }
 
+.label-text{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  opacity: 0.6;
+}
+
 .pool-stack{
   
   width:30rem;
