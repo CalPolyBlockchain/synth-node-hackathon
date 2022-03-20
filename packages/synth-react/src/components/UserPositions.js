@@ -9,11 +9,13 @@ export default function UserPositions(user) {
                 </div>
 
                 <div className="grid grid-cols-2">
-                    <div className="p-2 m-2 rounded-2xl bg-white bg-opacity-20">
-                        <p className="text-green text-2xl">{user.usd_equiv}</p>
-                        <p className="opacity-50 text-right pr-2">Your balance</p>
+                    <div>
+                        <div className="rounded-2xl bg-white bg-opacity-20">
+                            <p className="p-2 text-green text-2xl">{user.usd_equiv}</p>
+                            <p className="opacity-50 text-right pr-2">Your balance</p>
+                        </div>
                     </div>
-                    <div className="p-2 m-2 rounded-2xl bg-white bg-opacity-20 text-right">
+                    <div className="p-2  m-2 rounded-2xl bg-white bg-opacity-20 text-right">
                         <p className="text-green text-2xl">{user.total_interest}</p>
                         <p className="opacity-50 text-right pr-2 mb-2">Total Interest Earned</p>
 
@@ -30,7 +32,7 @@ export default function UserPositions(user) {
                     </div>
 
                 </div>
-                <div className="inline m-2 p-4 items-center">
+                <div className="flex flex-row m-2 p-4 items-center">
                 <button className="bg-pink m-3 text-2xl text-white hover:text-pink hover:bg-transparent hover:border-black hover:border-2 rounded-xl px-2 py-1">
                     Deposit
                 </button>
