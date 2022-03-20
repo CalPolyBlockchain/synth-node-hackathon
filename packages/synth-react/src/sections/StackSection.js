@@ -6,7 +6,7 @@ export default function StackSection(props) {
     return (
         <div className="items-center p-4 m-5 text-white">
             <p className=" text-center text-4xl p-5">
-                CDs are out VHS is in 😎
+                All you need is one
             </p>
             <StackedWrapper>
                 <div className="">
@@ -22,7 +22,7 @@ export default function StackSection(props) {
 
                         </div>
                         <div className="text-center py-2">
-                            <p className="text-xl opacity-80 mb-3">With Support For</p>
+                            <p className="text-xl opacity-80 mb-3">Happily Supporting:</p>
                             <img src="./home/logos-img.png" alt="logos" />
                         </div>
                     </div>
