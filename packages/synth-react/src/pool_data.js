@@ -6,6 +6,15 @@ const pool_data = {
 
             tvl_change_percent: 0.00,
             vol_24h: 10344.00,
+            
+            
+            total_interest: 2312,
+        },
+        current_pool:{
+            name: "Cusdt - CUSD",
+            symbol: "CUSD",
+            age: "1d",
+            apr: "8.50",
         },
     pools:[
         {

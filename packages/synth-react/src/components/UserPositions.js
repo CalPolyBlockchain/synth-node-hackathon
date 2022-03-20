@@ -30,12 +30,12 @@ export default function UserPositions(user) {
                     </div>
 
                 </div>
-                <div className="inline m-2 p-4">
+                <div className="inline m-2 p-4 items-center">
                 <button className="bg-pink m-3 text-2xl text-white hover:text-pink hover:bg-transparent hover:border-black hover:border-2 rounded-xl px-2 py-1">
                     Deposit
                 </button>
-                <button className="bg-pink m-3 text-2xl text-white hover:text-pink hover:bg-transparent hover:border-black hover:border-2 rounded-xl px-2 py-1">
-                    Deposit
+                <button className="bg-blue m-3 text-2xl text-white hover:text-blue hover:bg-transparent hover:border-black hover:border-2 rounded-xl px-2 py-1">
+                    Withdraw
                 </button>
                 </div>
 
