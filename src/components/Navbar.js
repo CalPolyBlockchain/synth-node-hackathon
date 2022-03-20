@@ -49,8 +49,9 @@ export default function Navbar(props) {
                 ))}
             </div>
             {/* OPEN APP BUTTON */}
+            <a href="app">
             <button className='bg-transparent m-2  hover:bg-pink text-pink font-semibold hover:text-purple py-2 px-4 border border-pink hover:border-transparent rounded-2xl'>
                 Launch app</button>
-        </div>
+                </a></div>
     );
 }
