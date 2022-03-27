@@ -11,7 +11,7 @@ export const home_page_text = {
         {main: '“Automated Pool Swaps”',
         secondary: 'Utilizing the highest yielding stablecoin pool to consistently deliver the highest APY',
         emoji: '👀',
-        color: 'yellow'},
+        color: 'pink'},
         
     ],
     stack_section: {
