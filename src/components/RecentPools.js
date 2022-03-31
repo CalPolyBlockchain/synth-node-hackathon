@@ -10,7 +10,6 @@ export default function RecentPools(props) {
                             <div key={i} className="flex flex-center bg-white bg-opacity-40 m-2 p-3 rounded-2xl">
                                 <div className="flex flex-col px-2">
                                     <p>{pool.name}</p>
-                                    {/* <p>name</p> */}
                                     <img src={`./tokens/asset_${props.symbol}.png`} alt=''/>
                                 </div>
                                 <div className="flex flex-col px-2">

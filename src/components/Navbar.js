@@ -20,7 +20,7 @@ const nav_items = [
 function NavItem(props) {
     return (
         <div className='px-2 my-1' key={props.i}>
-            <div className="bg-yellow rounded-2xl nav-stack  hover:bg-opacity-70">
+            <div className="bg-yellow rounded-2xl nav-stack  hover:bg-opacity-70 transform transition duration-500 hover:scale-110">
                 <div className="bg-blue nav-stack  hover:bg-opacity-70">
                     <div className="bg-pink nav-stack text-center  hover:bg-opacity-70">
                         <p className="pt-1">{props.text}</p>
@@ -75,8 +75,8 @@ export default function Navbar(props) {
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
-    <div className={`${isOpen} w-full md:block md:w-auto`} id="mobile-menu">
-      <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+    <div className={`${isOpen} w-full md:block md:w-auto items-center`} id="mobile-menu">
+      <ul className="flex flex-col items-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         {/* <li>
           <a href="#" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
         </li>
