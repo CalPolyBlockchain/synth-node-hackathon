@@ -8,7 +8,7 @@ module.exports = {
 			xl: '1440px',
 		},
 		colors: {
-			blue: '#207DFF',
+			blue: '#20FFFF',
 			pink: '#ff49db',
 			purple: '#B62EE0',
 			green: '#34eb3d',
@@ -41,6 +41,7 @@ module.exports = {
 				"team-img": "url(../public/home/team-img.png)",
 				"team-box-img": "url(../public/home/team-box-img.png)",
 				"logos-img": "url(../public/home/logos-img.png)",
+				"celo-logo": "url(../public/celo-logo.png)",
 			},
 			gradientColorStops: (theme) => ({
 				primary: '#FF8C00',
