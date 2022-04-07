@@ -10,7 +10,6 @@ export default function Wrapper(){
 
         <div className='' > 
         <Navbar />
-        
         <BrowserRouter>
         <Routes>
           {/* HOME PAGE */}
@@ -18,9 +17,6 @@ export default function Wrapper(){
           <Route path="/home" element={<Home/>} />
           {/* ADD ADDITONAL ROUTES here ex swap page */}
           <Route path="/app" element={<App />} />
-          
-          
-
         </Routes>
       </BrowserRouter>
       </div>
