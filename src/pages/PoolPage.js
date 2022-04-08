@@ -5,19 +5,21 @@ import Tvl from '../components/Tvl';
 export default function PoolPage(props) {
 
     return (
-        <div className="m-6">
+        <div className="justify-center">
+
+            {/* SHOW SUMMARY OF DEPOSITS */}
+            <Tvl {...pool_data} user={user_data} />
+            {/* LIST OF POOLS TO DEPOSIT INTO */}
 
 
-        <Tvl {...pool_data} user={user_data}/>
-        {/* LIST OF POOLS TO DEPOSIT INTO */}
-        
-        <div className="">
-        {pool_data.pools.map((pool, i) => {
-            return ( <PoolBox key={i} {...pool} /> );
-        })}
-        </div>
+            {/* SHOW LIST OF CURRENT DEPOSITABLE POOLS AND STATS */}
+            <div className="flex flex-col justify-center items-center">
+                {pool_data.pools.map((pool, i) => {
+                    return (<PoolBox key={i} {...pool} />);
+                })}
+            </div>
 
-        {/* YOUR ASSETS */}
+            {/* YOUR ASSETS */}
         </div>
     );
 }

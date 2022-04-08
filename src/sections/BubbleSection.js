@@ -1,6 +1,6 @@
 import React from 'react';
 // import BubbleChart from './components/BubbleChart';
-import './App.css';
+
 
 const data = [
   {year: 1980, efficiency: 24.3, sales: 8949000},
