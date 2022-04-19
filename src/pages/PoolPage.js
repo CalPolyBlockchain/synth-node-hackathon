@@ -1,6 +1,7 @@
 import pool_data from '../pool_data';
 import user_data from '../user_data';
 import PoolBox from '../components/PoolBox';
+// import PoolView from '../components/PoolView';
 import Tvl from '../components/Tvl';
 export default function PoolPage(props) {
 

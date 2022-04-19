@@ -18,81 +18,22 @@ const pool_data = {
             {
                 "name": "UST (Allbridge)",
                 "apr": "24.6% APR",
-                "pair": "cUSD / UST",
+                "pair": ['cUSD' ,'UST'],
                 "volume": "up to 39.5% w/ boost"
             },
             {
                 "name": "USDC (Optics V2)",
                 "apr": "19.9% APR",
-                "pair": "cUSD / cUSDC",
+                "pair": ['cUSD', 'cUSDC'],
                 "volume": "up to 32.4% w/ boost"
             },
             {
                 "name": "DAI (Optics V2)",
                 "apr": "19.7% APR",
-                "pair": "cUSD / DAI",
+                "pair": ['cUSD','DAI'],
                 "volume": "up to 25.5% w/ boost"
             },
-            {
-                "name": "WETH (Optics V2)",
-                "apr": "6.0% APR",
-                "pair": "cETH / wETH",
-                "volume": "up to 15.0% w/ boost"
-            },
-            {
-                "name": "wBTC (Optics V2)",
-                "apr": "9.3% APR",
-                "pair": "cBTC / wBTC",
-                "volume": "up to 23.1% w/ boost"
-            },
-            {
-                "name": "pUSDC (Optics V2)",
-                "apr": "18.6% APR",
-                "pair": "cUSD / pUSDC",
-                "volume": "up to 22.9% w/ boost"
-            },
-            {
-                "name": "aaUSDC (Allbridge)",
-                "apr": "2.0% APR",
-                "pair": "cUSD / aaUSDC",
-                "volume": "up to 5.0% w/ boost"
-            },
-            {
-                "name": "Poof cUSD V2",
-                "apr": "6.2% APR",
-                "pair": "cUSD / pUSD",
-                "volume": "up to 15.6% w/ boost"
-            },
-            {
-                "name": "Poof CELO V2",
-                "apr": "50.5% APR",
-                "pair": "CELO / pCELO",
-                "volume": "up to 126.3% w/ boost"
-            },
-            {
-                "name": "Poof cEUR V2",
-                "apr": "9.3% APR",
-                "pair": "cEUR / pEUR",
-                "volume": "up to 23.2% w/ boost"
-            },
-            {
-                "name": "asUSDC (AllBridge)",
-                "apr": "22.0% APR",
-                "pair": "cUSD / asUSDC",
-                "volume": "up to 33.6% w/ boost"
-            },
-            {
-                "name": "USDT (Moss)",
-                "apr": "0.2% APR",
-                "pair": "cUSD / cUSDTm",
-                "volume": "up to 0.6% w/ boost"
-            },
-            {
-                "name": "USDC (Moss)",
-                "apr": "5.9% APR",
-                "pair": "cUSD / cUSDCm",
-                "volume": "up to 14.8% w/ boost"
-            }
+           
         ]
     },
 
@@ -127,6 +68,9 @@ const pool_data = {
     ],
 
     pools: [
+
+
+
         {
             name: "UST (Allbridge)",
             symbols: ["cUSD", "UST"],
@@ -151,6 +95,10 @@ const pool_data = {
             apr: 0.232,
             tvl: 1000000.00,
         }
-    ]
+    ],
+    // stitch_0: {
+    //     mobi_pools: 
+    //         pools
+    // }
 }
 export default pool_data;

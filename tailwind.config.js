@@ -17,6 +17,9 @@ module.exports = {
 			gray: '#8492a6',
 			blac: '#000000',
 		},
+		container: {
+			center: true,
+		  },
 		fontFamily: {
 			Poppins: ['Poppins', 'sans-serif'],
 			sans: ['Graphik', 'sans-serif'],

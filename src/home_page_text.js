@@ -7,21 +7,11 @@ const gateway_icon_class = " text-3xl md:text-4xl";
 
 
 export const home_page_text = {
-    outlined_boxes: [
-        {
-            main: '“Asolutely no market risk”',
-            secondary: 'No liquidation risk, fixed interest rate, 100x traditional savings account interest rate',
-            emoji: '📈',
-            color: 'pink'
-        },
-        {
-            main: '“Automated Pool Swaps”',
-            secondary: 'Utilizing the highest yielding stablecoin pool to consistently deliver the highest APY',
-            emoji: '👀',
-            color: 'pink'
-        },
-
-    ],
+    hero_section1: {
+        "main": "Simplified yield diversification and aggregation",
+        "button_text": "Join Waitlist"
+    },
+   
     stack_section: {
         main: " Start capitalizing on your stablecoin assets",
         secondary: "Earn Astonishing APY on USDC, UST and more",
@@ -53,11 +43,23 @@ export const home_page_text = {
             color: 'yellow'
         },
     ],
+    outlined_boxes: [
+        {
+            main: '“Asolutely no market risk”',
+            secondary: 'No liquidation risk, fixed interest rate, 100x traditional savings account interest rate',
+            emoji: '📈',
+            color: 'pink'
+        },
+        {
+            main: '“Automated Pool Swaps”',
+            secondary: 'Utilizing the highest yielding stablecoin pool to consistently deliver the highest APY',
+            emoji: '👀',
+            color: 'pink'
+        },
 
-    hero_section1: {
-        "main": "Your gateway to simple compound interest on your stable assets",
-        "button_text": "Join Waitlist"
-    },
+    ],
+
+    
 
     hero_section2: {
         main: "Reimagine Yield Farming",
@@ -93,27 +95,30 @@ export const home_page_text = {
                 secondary: "Use your mobile phone to deposit and withdraw your stablecoin assets, even without data or internet access",
                 icon: (<FaBroadcastTower className={icon_class} />),
                 button_text: "view guide",
+                button_color : "blue"
             },
             {
                 main: "Mobile App",
                 secondary: "alternativly, use our mobile app's simple dashboard to manage your assets",
                 icon: (<FaMobile className={icon_class} />),
                 button_text: "learn more",
+                button_color : "pink"
             },
             {
                 main: "Web App",
                 secondary: "Connect with valora, metamask and other browser bassed wallets to simplify your yield management",
                 icon: (<FaMobile className={icon_class} />),
                 button_text: "launch app",
+                button_color : "blue"
             },
         ],
 
     },
     apps:[
-        {name:"ubeswap", description:"Swaping and yeild solution", img_src:"./home/ubeswap.png"} ,
-        {name:"mobius" , description:"", img_src:"./home/mobius.png"} ,
+        {name:"ubeswap", description:"The mobile-first deFi exchange,Swaping and yeild solution", img_src:"./home/ubeswap.png"} ,
+        {name:"mobius" , description:"Celos first cross-chain stableswap exchange", img_src:"./home/mobius.png"} ,
         {name:"pinnata", description:"leverage provider and yield farming pools ", img_src:"./home/pinnata.png"},
-        {name:"moolaMarkets", description:"", img_src:"./home/moolaMarkets.png"},
+        {name:"moolaMarkets", description:"Democratizing access to credit and yield", img_src:"./public/home/moolaMarkets.png"},
     ],
 
 

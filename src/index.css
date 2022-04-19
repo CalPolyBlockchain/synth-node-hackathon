@@ -15,6 +15,10 @@
     margin-left: 2rem;
 }
 
+.stack-item::hover{
+  fill-opacity: 100%;
+}
+
 
 .stack-container{
   width: 80%;

@@ -3,11 +3,11 @@ import animations from '../animations/animations';
 const icon_class = ' m-4 p-3 inline'
 export default function HeroSection3(props) {
     return (
-        <div className="bg-black p-4 m-2">
+        <div className="bg-black flex flex-col p-4 m-2">
             <div className="text-center text-6xl p-4 m-5 py-8 max-w-5xl text-white  ">
                 {props.main}
             </div>
-            <div className='flex md:flex-row sm:flex-col justify-center items-center p-2'>
+            <div className='flex flex-row md:flex-row sm:flex-col justify-center items-center p-2'>
                 {props.boxes.map((box, index) => {
                     return (
                         <div className={`flex flex-col text-white justify-center outline outline-4 outline-pink rounded-lg items-center p-2 m-5 ${animations.hoverGrow} hover:bg-opacity-20 hover:bg-white`}>
