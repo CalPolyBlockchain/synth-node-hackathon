@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../assets/images/mockup.png";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
+import animations from '../animations/animations';
 export default function HeroSection2(props) {
   const onClick = () => {
     console.log("Launching app...");
@@ -14,7 +15,7 @@ export default function HeroSection2(props) {
         <div className="md:grid md:grid-cols-3 md:gap-4 md:pr-6">
           <div className="md:col-span-2">
             <img
-              className="max-w-full h-auto"
+              className={`max-w-full h-auto ${animations.hoverShrink}`}
               src={img1}
               alt="synth cell phone"
             />

@@ -6,7 +6,7 @@ export default function StackSection(props) {
     return (
         <div className="items-center p-4 m-5 text-white">
             <p className=" text-center text-4xl p-5">
-                Yield pool management simplified
+                Diversify your yield farming strategy 
             </p>
             <StackedWrapper>
                 <div className="">
