@@ -15,12 +15,14 @@ contract OptionsMarket {
     
     address payable contractAddr;
     
-    //Options stored in arrays of structs
+    //live mocktion mapping
+
+
     // Our options are ma
-    struct option {
+    struct mocktion {
         uint strike; //Price in USD (18 decimal places) option allows buyer to purchase tokens at
         uint premium; //Fee in contract token that option writer charges
-        uint expiry; //Unix timestamp of expiration time
+        // uint expiry; //Unix timestamp of expiration time
         uint amount; //Amount of tokens the option contract is for
         bool exercised; //Has option been exercised
         bool canceled; //Has option been canceled
@@ -45,6 +47,18 @@ contract OptionsMarket {
 
     }
 
+
+    //Create a new option
+    // @param uint256 _strike Price in USD (18 decimal places)
+    // @param uint256 _premium Fee in contract token that option writer charges
+    // @param uint256 _expiry Unix timestamp of expiration time
+    // @param uint256 _amount Amount of tokens the option contract is for
+    // @param uint256 _id Unique ID of option, also array index
+    // @return uint256 id of new option
+    public function createOption(uint256 _strike, uint256 _premium, uint256 _expiry, uint256 _amount, uint256 _id) public payable {
+        //Check if option already exists
+    }
+
 }
 
 
@@ -53,4 +67,4 @@ contract OptionsMarket {
     // option[] public ethOpts;
     // option[] public linkOpts;
 
-    //Kovan feeds: https://docs.chain.link/docs/reference-contracts
+    //Kovan feeds: https://docs.chain.link/docs/reference-contracts use later?

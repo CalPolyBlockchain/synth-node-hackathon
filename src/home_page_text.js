@@ -8,7 +8,7 @@ const gateway_icon_class = " text-3xl md:text-4xl";
 
 export const home_page_text = {
     hero_section1: {
-        "main": "Simplified yield diversification and aggregation",
+        "main": 'Simplified "mocktions" Strategies',
         "button_text": "Join Waitlist"
     },
    
